@@ -23,6 +23,7 @@
         <% //empresa.nome = empresa.getNome() %>
         <li>
                 ${empresa.nome} - <fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy" />
+                    <a href="/gerenciador_war_exploded/mostraEmpresaServlet?id=${empresa.id}">Editar</a>
                     <a href="/gerenciador_war_exploded/removeEmpresaServlet?id=${empresa.id}">Remove</a>
         </li>
     </c:forEach>

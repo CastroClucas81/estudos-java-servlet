@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 //definir url dessa página
+//eu defini no xml a rota padrão. essa era a forma usual para fazer isso
 @WebServlet(urlPatterns = "/oi")
 public class OiMundoServlet extends HttpServlet {
 
